@@ -262,6 +262,15 @@ img {
   display: flex;
   align-items: center;
   letter-spacing: 0.06em;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
+}
+
+.button.button.primary:hover,
+.button.primary:focus {
+  background-color: #1976d2;
 }
 
 .filter.button {
