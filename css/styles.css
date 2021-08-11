@@ -137,7 +137,7 @@ img {
 .nav .link.current::after {
   content: "";
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
 
   display: block;
   width: 100%;
@@ -152,7 +152,7 @@ img {
 .nav .link::after {
   content: "";
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
 
   display: block;
   width: 100%;
