@@ -268,9 +268,13 @@ img {
   transition-timing-function: var(--timing-function);
 }
 
-.button.button.primary:hover,
+.button.primary:hover,
 .button.primary:focus {
   background-color: #1976d2;
+}
+
+.button.primary:active {
+  box-shadow: inset 0 0 12px 6px rgba(0, 0, 0, 0.3);
 }
 
 .filter.button {
